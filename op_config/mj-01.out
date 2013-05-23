@@ -1,0 +1,8 @@
+[do_features] ExcList: Traceback (most recent call last):
+  File "/Users/haho0032/githubFork/oictest/src/oauth2test/__init__.py", line 142, in run
+    self.do_features(interact, _spec["sequence"], block)
+  File "/Users/haho0032/githubFork/oictest/src/oictest/__init__.py", line 157, in do_features
+    self.cconf["_base_url"] = self.cconf["key_export_url"] % (
+KeyError: 'key_export_url'
+
+[do_features] Exception: 'key_export_url'
