@@ -14,7 +14,7 @@ DEFAULT = {
         "contact": ["roland.hedberg@adm.umu.se"],
         "application_type": "web",
         "application_name": "OIC test tool",
-        "key_export_url": "http://%s:8090/",
+        "key_export_url": "http://%s:8092/",
         "keys": {
             "rsa": {
                 "key": "keys/pyoidc",

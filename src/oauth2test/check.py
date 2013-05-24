@@ -73,7 +73,7 @@ class CheckContentTypeHeader(Error):
         return res
 
 
-class CheckSecondCodeUsageErrorResponse(CheckErrorResponse):
+class CheckSecondCodeUsageErrorResponse(ErrorResponse):
     cid = "check_second_code_usage_error_response"
 
     def _func(self, conv):
@@ -106,7 +106,7 @@ class CheckPresenceOfStateParameter(Error):
         return {}
 
 
-class CheckErrorResponseForInvalidType(CheckErrorResponse):
+class CheckErrorResponseForInvalidType(ErrorResponse):
     status = check.ERROR
 
     def _func(self, conv):
